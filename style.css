@@ -115,26 +115,113 @@ img{
 	padding: 20px 30px 20px 30px; 
 	width:220px;
 	height: 200px; 
-	margin-left: 70px;
-	margin-right: 85px;
+	margin-left: 90px;
+	margin-right: 69px;
 	border:1px solid rgba(0,0,0,0.05);
 	box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.05) ;
 }
 .contect{
 	width: 100%;
+	height: 650px;
 	background-color:hsl(0,0%,95%);  
 }
 .info{
 	background-color: yellow;
 	width:100%;
 	height: 120px;
-	padding: 20px 0px 20px 0px;
+	padding: 37px 0px 35px 0px;
 	text-align: center;
 }
 .font-awesome{
 	width:33.33%;
 	float: left;
+	text-align:center;
+}
+.font-awesome h3{
+	display:inline-block;
+	}
+.main-contect{
+	width:100%;
+	text-align: center; 
+	padding: 30px 5px 30px 5px;
+}
+.col-1{
+	width: 35%;
+	float: left;
+	text-align: center;
+	padding: 30px 5px 30px 30px;
+}
+.col-2{
+	width:65%;
+	float: left;
+	padding: 30px 5px 30px 5px;
+}
+.spcial-icones{
+	padding:15px;
+	border:1px dotted black; 
+	margin: 7px;
+}
+.fb{
+	background:darkblue; 
+	color:#fff;
+	}
+.gp{
+	background: red;
+	color:#fff;
+}	
+.tw{
+	background: skyblue;
+	color:#fff;
+}
+.in{
+	background: #668cff
+	color:#fff;
+}
+.col{
+	float:left;
+	width:48%;
+	margin-right:2%;
+	text-align: left;
+	margin-top 
+}
+.testarea{
+	width:100%;
+	height: 250px;
+	border:none;
+	outline: none;
+}
+.fname,.femail{
+	width: 100%;
+	height:35px;
+	padding: 0px 5px 0px 5px;
+	border:none;
+	outline:none;  
+}
+.button{
+	background-color: yellow;
+	border:none;
+	outline:1px solid black;
+	padding: 10px 30px 10px 30px;
+	margin-top:10px;
+	cursor:pointer; 
 }
 
+.footer{
+	background-color: black;
+	color: white;
+	width: 100%;
+}
+.footer::after{
+	clear: both;
+	display: table;
+	content: "";
+}
+.col1{
+	width: 33.33%;
+	float:left;
+	padding: 10px 20px 15px 20px;
+}
+.footer h2{
+	padding: 20px 5px 20px 5px;
 
-
+}
